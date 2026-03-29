@@ -1,0 +1,54 @@
+# 🚀 Advanced AI Ticketing System
+
+## 📌 Project Overview
+
+The Advanced AI Ticketing System is a smart internal support platform
+that automates ticket handling using AI. It analyzes incoming tickets,
+decides whether they can be auto-resolved, and if not, intelligently
+assigns them.
+
+## 🎯 Problem Statement
+
+-   Manual ticket handling causes delays
+-   Incorrect routing
+-   High workload
+
+## 🧠 Key Features
+
+1.  AI Ticket Analysis
+2.  Auto Resolution
+3.  Intelligent Assignment
+4.  Ticket Lifecycle
+5.  Analytics Dashboard
+
+## 🛠️ Tech Stack
+
+-   FastAPI
+-   SQLite
+-   Python
+
+## ⚙️ Setup
+
+pip install -r requirements.txt\
+python -m uvicorn main:app --reload
+
+## 🧪 APIs
+
+POST /ticket\
+PUT /ticket/{ticket_id}/status\
+GET /analytics
+
+## ⚠️ Limitations
+
+-   No frontend
+-   Rule-based AI
+
+## 🚀 Future Improvements
+
+-   Add LLM
+-   Add frontend
+-   Better analytics
+
+## 🙋 Author
+
+Khushboo Kaushik
